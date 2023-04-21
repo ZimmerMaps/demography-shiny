@@ -59,6 +59,6 @@ navbarPage("Global Urban Demographic Dataset (GUDD)", id="nav",
                     hr(),
                     DT::dataTableOutput("zonetable"),
            
-           conditionalPanel("false", icon("crosshair"))
+           conditionalPanel("false")
 )
 
